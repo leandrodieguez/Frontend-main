@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="mb-5">Hard & Soft Skills</h1>
+        <div class="col-lg-2 mt-3">
+            <button class="btn btn-primary" routerLink="/nuevahab" *ngIf="isLogged">Agregar Habilidad</button>
+        </div>
+        <div class="skill text-center col-sm-4 col-md-4 col-lg-4" *ngFor="let Habilidad of habilidad">
+            <circle-progress
+                                [percent]="Habilidad.nivelH"
+                                [radius]="100"
+                                title="{{Habilidad.nombreH}}"
+                                [backgroundColor]="'#bdd1de'"
+                                titleFontSize="1.5em"
+                                [showUnits]="false"
+                                [imageHeight]="100"
+                                [imageWidth]="100"
+                                [showSubtitle]="true"
+                                subtitle="{{Habilidad.nivelH}}%"
+                                subtitleFontSize="1em"
+                                [outerStrokeWidth]="16"
+                                [innerStrokeWidth]="8"
+                                [outerStrokeColor]="'#355c7d'"
+                                [innerStrokeColor]="'#02416d'"
+                                [animation]="true"
+                                [animationDuration]="700"
+                    ></circle-progress>
+                    <div>
+                        <td *ngIf="isLogged"><button type="button" class="btn btn-info me-3"
+                                routerLink="/edithab/{{Habilidad.id}}"><i
+                                    class="bi bi-pencil-fill"></i>EDITAR</button></td>
+                        <td *ngIf="isLogged"><button type="button" class="btn btn-danger"
+                                (click)="delete(Habilidad.id)"><i class="bi bi-trash-fill"></i>BORRAR</button>
+                        </td>
+                    </div>
+        </div>
+        </div>
+    </div>
