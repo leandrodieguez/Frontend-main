@@ -8,10 +8,10 @@ import { Persona } from '../model/persona.model';
 })
 export class PersonaService {
   // Local //
-  //URL = 'http://localhost:8080/persona/'//
+  //URL = 'http://localhost:8080/persona/'
 
   // Heroku //
-  URL = 'https://backendld.onrender.com/persona/'
+   URL = 'https://backendld.onrender.com/persona/'
 
   
   constructor(private httpClient: HttpClient) { }

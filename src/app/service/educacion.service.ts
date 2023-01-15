@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
   // Local //
- // URL = 'http://localhost:8080/educacion/';//
+  //URL = 'http://localhost:8080/educacion/';//
 
  // Heroku //
     URL = 'https://backendld.onrender.com/educacion/';

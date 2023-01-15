@@ -8,7 +8,7 @@ import { Experiencia } from '../model/experiencia';
 })
 export class SExperienciaService {
   // Local //
-  //expURL = 'http://localhost:8080/explab/'//
+  //expURL = 'http://localhost:8080/explab/'
 
   // Heroku //
     expURL = 'https://backendld.onrender.com/explab/'
