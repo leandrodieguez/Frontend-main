@@ -11,7 +11,7 @@ export class SExperienciaService {
   //expURL = 'http://localhost:8080/explab/'//
 
   // Heroku //
-    expURL = 'https://backendld.herokuapp.com/explab/'
+    expURL = 'https://backendld.onrender.com/explab/'
 
 
   constructor(private httpClient: HttpClient) { }

@@ -11,7 +11,7 @@ export class ProyectoService {
   //URL = 'http://localhost:8080/proyecto/'//
 
   // Heroku //
-  URL = 'https://backendld.herokuapp.com/proyecto/'
+  URL = 'https://backendld.onrender.com/proyecto/'
 
   constructor(private httpClient: HttpClient) { }
 

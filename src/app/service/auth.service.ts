@@ -13,7 +13,7 @@ export class AuthService {
   //authURL = 'http://localhost:8080/auth/';//
 
   // Heroku //
-  authURL = 'https://backendld.herokuapp.com/auth/';
+  authURL = 'https://backendld.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

@@ -11,7 +11,7 @@ export class EducacionService {
  // URL = 'http://localhost:8080/educacion/';//
 
  // Heroku //
-    URL = 'https://backendld.herokuapp.com/educacion/';
+    URL = 'https://backendld.onrender.com/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

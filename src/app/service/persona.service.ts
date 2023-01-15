@@ -11,7 +11,7 @@ export class PersonaService {
   //URL = 'http://localhost:8080/persona/'//
 
   // Heroku //
-  URL = 'https://backendld.herokuapp.com/persona/'
+  URL = 'https://backendld.onrender.com/persona/'
 
   
   constructor(private httpClient: HttpClient) { }

@@ -10,7 +10,7 @@ export class HabilidadService {
   // Local //
   //URL = 'http://localhost:8080/habilidad/';//
   // Heroku //
-  URL = 'https://backendld.herokuapp.com/habilidad/';
+  URL = 'https://backendld.onrender.com/habilidad/';
 
   constructor(private httpClient : HttpClient) { }
 
